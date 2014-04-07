@@ -13,15 +13,15 @@
 		<meta property="og:site_name" content="Julien Renaux Blog"/>
 		<meta property="og:type" content="blog"/>
 		<meta property="og:image" content="http://julienrenaux.fr/wp-content/uploads/2013/12/bttrlazyloading-300x181.png">
-		<link rel="stylesheet" type="text/css" href="bower_components/bootswatch/yeti/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/bootswatch/lumen/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="bower_components/highlight.js/src/styles/solarized_dark.css" />
-		<link rel="stylesheet" type="text/css" href="build/bttrlazyloading.min.css" />
+		<link rel="stylesheet" type="text/css" href="BttrLazyLoading/build/bttrlazyloading.min.css" />
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="demo/js/highlight.pack.js"></script>
-		<script src="build/jquery.bttrlazyloading.min.js"></script>
+		<script src="BttrLazyLoading/build/jquery.bttrlazyloading.min.js"></script>
 		<style>
 			body{
 				margin-top: 46px;
@@ -103,7 +103,8 @@
 			$(function() {
 				$('#back-to-top').click(function(event) {
 					$.smoothScroll({
-						scrollTarget: 'body'
+						scrollTarget: 'body',
+						offset: -60
 					});
 				});
 				$('.smooth-scroll').click(function(event) {
