@@ -1,0 +1,3 @@
+[submodule "BttrLazyLoading"]
+	path = BttrLazyLoading
+	url = git@github.com:shprink/BttrLazyLoading.git
