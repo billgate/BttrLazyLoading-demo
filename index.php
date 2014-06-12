@@ -17,6 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="bower_components/highlight.js/src/styles/solarized_dark.css" />
 		<link rel="stylesheet" type="text/css" href="BttrLazyLoading/build/bttrlazyloading.min.css" />
+		<link rel="stylesheet" type="text/css" href="BttrLazyLoading/build/animate.min.css" />
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
