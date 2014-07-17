@@ -16,13 +16,13 @@
 		<link rel="stylesheet" type="text/css" href="bower_components/bootswatch/lumen/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="bower_components/highlight.js/src/styles/solarized_dark.css" />
-		<link rel="stylesheet" type="text/css" href="BttrLazyLoading/build/bttrlazyloading.min.css" />
-		<link rel="stylesheet" type="text/css" href="BttrLazyLoading/build/animate.min.css" />
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="BttrLazyLoading/dist/bttrlazyloading.min.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css" />
+		<script src="bower_components/jquery/jquery.min.js"></script>
 		<script src="bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="demo/js/highlight.pack.js"></script>
-		<script src="BttrLazyLoading/build/jquery.bttrlazyloading.min.js"></script>
+		<script src="BttrLazyLoading/dist/jquery.bttrlazyloading.min.js"></script>
 		<style>
 			body{
 				margin-top: 46px;
@@ -235,9 +235,6 @@
 			</div>
 			<br/>
 			<div class="well text-center">
-				<a class="btn btn-primary btn-lg" target="_blank" title="Download" href="http://bit.ly/1iO1VTE">
-					<i class="fa fa-download"></i> v1.0.3 (< 7.5kB)
-				</a>
 				<a class="btn btn-info btn-lg" href="/demo" >
 					<i class="fa fa-play"></i> Demos
 				</a>
@@ -486,10 +483,11 @@ height : 100
 					<h2>Demos</h2>
 				</div>
 				<div class="alert alert-info">
-					<p><b>Plugin dependencies:</b> BttrLazyLoading depends on jQuery (meaning jQuery must be included <strong>before</strong> the plugin files).</p>
+                    <p><b>Plugin dependencies:</b> BttrLazyLoading depends on jQuery (meaning jQuery must be included <strong>before</strong> the plugin files) and <a href="https://github.com/daneden/animate.css" target="_blank">Animate.css</a> (optional) for animations..</p>
 				</div>
 				<pre><code class="html">&lt;script src=&quot;jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;bttrlazyloading.min.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;animate.min.css&quot; /&gt;
 &lt;script src=&quot;jquery.bttrlazyloading.min.js&quot;&gt;&lt;/script&gt;</pre></code>
 				<p>The following demos are using the same element attributes:</p>
 				<pre><code class="html">&lt;img id=&quot;yourImageId&quot; class=&quot;bttrlazyloading&quot;

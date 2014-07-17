@@ -19,14 +19,15 @@ define('DEMO', 'dynamic-loading');
         <meta property="og:image" content="http://julienrenaux.fr/wp-content/uploads/2013/12/bttrlazyloading-300x181.png">
         <link rel="stylesheet" type="text/css" href="../bower_components/bootswatch/lumen/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="../BttrLazyLoading/build/bttrlazyloading.min.css" />
+        <link rel="stylesheet" type="text/css" href="../BttrLazyLoading/dist/bttrlazyloading.min.css" />
+		<link rel="stylesheet" type="text/css" href="../bower_components/animate.css/animate.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/jquery/jquery.min.js"></script>
         <script src="../bower_components/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
         <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="../bower_components/highlight.js/src/styles/solarized_dark.css" />
         <script src="js/highlight.pack.js"></script>
-        <script src="../BttrLazyLoading/build/jquery.bttrlazyloading.min.js"></script>
+        <script src="../BttrLazyLoading/dist/jquery.bttrlazyloading.min.js"></script>
         <style>
             #loading-area{
                 height: 450px;

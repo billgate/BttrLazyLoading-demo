@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand smooth-scroll" href="/">#BttrLazyLoading</a>
-		
+
     </div>
     <p class="navbar-text navbar-right hidden-xs hidden-sm"></p>
 
@@ -41,9 +41,9 @@
 			<li><a class="smooth-scroll" href="/#tips">Tips</a></li>
 			<li><a class="smooth-scroll" href="/#feedback">Feedback</a></li>
         </ul>
-		
+
         <ul class="nav navbar-nav navbar-right">
-			
+
             <li><a data-toggle="tooltip" class="navbar-link" target="_blank" href="http://julienrenaux.fr/"><i class="fa fa-book"></i> Blog</a></li>
             <li><a data-toggle="tooltip" class="navbar-link" target="_blank" href="https://www.facebook.com/julienrenauxblog" title="follow me on Facebook"><i class="fa fa-facebook"></i></a></li>
             <li><a data-toggle="tooltip" class="navbar-link" target="_blank" href="https://github.com/shprink" title="follow me on GitHub"><i class="fa fa-github"></i></a></li>
