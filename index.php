@@ -421,7 +421,7 @@ height : 100
 	data-bttrlazyloading-sm-src=&quot;img/345x250.gif&quot;
 	data-bttrlazyloading-md-src=&quot;img/455x350.gif&quot;
 	data-bttrlazyloading-lg-src=&quot;img/360x300.gif&quot;
-	data-bttrlazyloading-transition=&quot;rotatedIn&quot;
+	data-bttrlazyloading-animation=&quot;rotatedIn&quot;
 	data-bttrlazyloading-retina=&quot;true&quot;
 	data-bttrlazyloading-delay=&quot;2000&quot;
 	data-bttrlazyloading-event=&quot;mouseover&quot;
@@ -470,7 +470,7 @@ height : 100
 		height: 200
 	},
 	retina: true,
-	transition: 'fadeInUp',
+	animation: 'fadeInUp',
 	delay: 1000,
 	event: 'click',
 	container: 'document.body',
@@ -926,7 +926,7 @@ $('#yourImageId').bttrlazyloading('destroy').remove();</pre></code>
 					<div class="panel-body">
 						<pre><code class="javascript">$.bttrlazyloading.setOptions({
 	retina: true,
-	transition: 'fadeInUp',
+	animation: 'fadeInUp',
 	delay: 1000,
 	event: 'click',
 	container: 'document.body',

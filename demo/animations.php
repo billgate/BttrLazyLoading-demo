@@ -39,7 +39,7 @@ define('DEMO', 'animations');
                 <div class="col-md-6">
                     <h2>HTML</h2>
                     <pre><code class="html">&lt;img id=&quot;yourImg&quot; class=&quot;bttrlazyloading&quot;
-    data-bttrlazyloading-xs-transition=&quot;flipInX&quot;
+    data-bttrlazyloading-animation=&quot;flipInX&quot;
     data-bttrlazyloading-xs-src=&quot;img/800x300.jpg&quot;
     data-bttrlazyloading-xs-width=&quot;800&quot;
     data-bttrlazyloading-xs-height=&quot;300&quot;
@@ -68,7 +68,7 @@ define('DEMO', 'animations');
                 <div class="col-md-6">
                     <h2>JavaScript</h2>
                     <pre><code class="javascript">$('#yourImg').bttrlazyloading({
-	transition: 'flipInX' // Select among the CSS animations below
+	animation: 'flipInX' // Select among the CSS animations below
 	xs: {
 		src: 'http://placekitten.com/800/300',
 		width: 800,
