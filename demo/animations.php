@@ -131,15 +131,6 @@ define('DEMO', 'animations');
                     <h2 id="fadeInRightBig">fadeInRightBig</h2>
                 </div>
                 <div class=" col-sm-6 col-md-4 col-lg-3">
-                    <h2 id="slideInDown">slideInDown</h2>
-                </div>
-                <div class=" col-sm-6 col-md-4 col-lg-3">
-                    <h2 id="slideInLeft">slideInLeft</h2>
-                </div>
-                <div class=" col-sm-6 col-md-4 col-lg-3">
-                    <h2 id="slideInRight">slideInRight</h2>
-                </div>
-                <div class=" col-sm-6 col-md-4 col-lg-3">
                     <h2 id="bounceIn">bounceIn</h2>
                 </div>
                 <div class=" col-sm-6 col-md-4 col-lg-3">
@@ -205,9 +196,6 @@ define('DEMO', 'animations');
                     'fadeInDownBig',
                     'fadeInLeftBig',
                     'fadeInRightBig',
-                    'slideInDown',
-                    'slideInLeft',
-                    'slideInRight',
                     'bounceIn',
                     'bounceInDown',
                     'bounceInUp',
